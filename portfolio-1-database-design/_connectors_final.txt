@@ -1,0 +1,115 @@
+=== ALL 19 CONNECTORS FULLY RESOLVED ===
+
+CONN 1 (id=KUCCaP4qDDF5WXHxpRks-1)
+  categories  -->  products
+  endArrow(at products)=ERzeroToMany | startArrow(at categories)=
+  sourcePoint=(-630, 90)
+  targetPoint=(-530, -10)
+
+CONN 2 (id=KUCCaP4qDDF5WXHxpRks-2)
+  products  -->  product_variants
+  endArrow(at product_variants)=ERzeroToMany | startArrow(at products)=
+  sourcePoint=(-350, -40)
+  targetPoint=(-250, -140)
+
+CONN 3 (id=KUCCaP4qDDF5WXHxpRks-3)
+  products  -->  products_images
+  endArrow(at products_images)=ERzeroToMany | startArrow(at products)=
+  sourcePoint=(-350, -40)
+  targetPoint=(-220, -400)
+
+CONN 4 (id=KUCCaP4qDDF5WXHxpRks-5)
+  products  -->  product_collections
+  endArrow(at product_collections)=ERzeroToMany | startArrow(at products)=
+  source cell=Qmj9I9p5MebHnG0-Ovei-28
+  targetPoint=(-740, -140)
+
+CONN 5 (id=KUCCaP4qDDF5WXHxpRks-6)
+  product_collections  -->  collections
+  endArrow(at collections)=ERzeroToMany | startArrow(at product_collections)=
+  sourcePoint=(-930, -115)
+  targetPoint=(-1080, -300)
+
+CONN 6 (id=KUCCaP4qDDF5WXHxpRks-7)
+  customers  -->  customers_addresses
+  endArrow(at customers_addresses)=ERzeroToMany | startArrow(at customers)=
+  sourcePoint=(-1060, 470)
+  targetPoint=(-960, 370)
+
+CONN 7 (id=KUCCaP4qDDF5WXHxpRks-8)
+  customers  -->  orders
+  endArrow(at orders)=ERzeroToMany | startArrow(at customers)=
+  sourcePoint=(-1240, 465)
+  targetPoint=(-1390, 280)
+
+CONN 8 (id=KUCCaP4qDDF5WXHxpRks-9)
+  customers_addresses  -->  orders
+  endArrow(at orders)=ERzeroToMany | startArrow(at customers_addresses)=
+  sourcePoint=(-960, 345)
+  target cell=Qmj9I9p5MebHnG0-Ovei-261
+
+CONN 9 (id=KUCCaP4qDDF5WXHxpRks-10)
+  orders  -->  order_items
+  endArrow(at order_items)=ERzeroToMany | startArrow(at orders)=
+  source cell=Qmj9I9p5MebHnG0-Ovei-255
+  targetPoint=(-1770, 390)
+
+CONN 10 (id=KUCCaP4qDDF5WXHxpRks-11)
+  products  -->  order_items
+  endArrow(at order_items)=ERzeroToMany | startArrow(at products)=
+  sourcePoint=(-530, -35)
+  target cell=Qmj9I9p5MebHnG0-Ovei-292
+
+CONN 11 (id=KUCCaP4qDDF5WXHxpRks-12)
+  orders  -->  payments
+  endArrow(at payments)=ERzeroToMany | startArrow(at orders)=
+  sourcePoint=(-1600, 260)
+  targetPoint=(-1660, 720)
+
+CONN 12 (id=KUCCaP4qDDF5WXHxpRks-19)
+  inventory  -->  product_variants
+  endArrow(at product_variants)=ERmandOne | startArrow(at inventory)=ERmandOne
+  sourcePoint=(-390, -350)
+  target cell=Qmj9I9p5MebHnG0-Ovei-196
+
+CONN 13 (id=KUCCaP4qDDF5WXHxpRks-20)
+  product_variants  -->  stock_movements
+  endArrow(at stock_movements)=ERoneToMany | startArrow(at product_variants)=ERmandOne
+  source cell=Qmj9I9p5MebHnG0-Ovei-196
+  targetPoint=(-260, -710)
+
+CONN 14 (id=KUCCaP4qDDF5WXHxpRks-23)
+  product_variants  -->  stock_reservations
+  endArrow(at stock_reservations)=ERzeroToMany | startArrow(at product_variants)=
+  sourcePoint=(-70, -170)
+  targetPoint=(30, -270)
+
+CONN 15 (id=KUCCaP4qDDF5WXHxpRks-24)
+  orders  -->  stock_reservations
+  endArrow(at stock_reservations)=ERzeroToMany | startArrow(at orders)=
+  sourcePoint=(-1390, 260)
+  target cell=Qmj9I9p5MebHnG0-Ovei-389
+
+CONN 16 (id=KUCCaP4qDDF5WXHxpRks-25)
+  user_roles  -->  staff
+  endArrow(at staff)=ERzeroToMany | startArrow(at user_roles)=
+  source cell=Qmj9I9p5MebHnG0-Ovei-479
+  target cell=Qmj9I9p5MebHnG0-Ovei-451
+
+CONN 17 (id=KUCCaP4qDDF5WXHxpRks-26)
+  customers  -->  product_reviews
+  endArrow(at product_reviews)=ERzeroToMany | startArrow(at customers)=
+  sourcePoint=(-1060, 470)
+  target cell=Qmj9I9p5MebHnG0-Ovei-420
+
+CONN 18 (id=KUCCaP4qDDF5WXHxpRks-27)
+  products  -->  product_reviews
+  endArrow(at product_reviews)=ERzeroToMany | startArrow(at products)=
+  sourcePoint=(-350, -40)
+  target cell=Qmj9I9p5MebHnG0-Ovei-423
+
+CONN 19 (id=KUCCaP4qDDF5WXHxpRks-28)
+  staff  -->  stock_movements
+  endArrow(at stock_movements)=ERzeroToMany | startArrow(at staff)=
+  source cell=Qmj9I9p5MebHnG0-Ovei-448
+  target cell=Qmj9I9p5MebHnG0-Ovei-367

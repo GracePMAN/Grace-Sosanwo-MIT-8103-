@@ -1,0 +1,115 @@
+=== ALL 19 CONNECTORS RESOLVED BY COORDINATES ===
+
+CONN 1 (id=KUCCaP4qDDF5WXHxpRks-1)
+  categories  -->  products
+  endArrow(at target)=ERzeroToMany | startArrow(at source)=
+  sourcePoint=(0:F0 1:F0 -f System.Collections.Hashtable.spx, System.Collections.Hashtable.spy
+  targetPoint=(0:F0 1:F0 -f System.Collections.Hashtable.tpx, System.Collections.Hashtable.tpy
+
+CONN 2 (id=KUCCaP4qDDF5WXHxpRks-2)
+  products  -->  product_variants
+  endArrow(at target)=ERzeroToMany | startArrow(at source)=
+  sourcePoint=(0:F0 1:F0 -f System.Collections.Hashtable.spx, System.Collections.Hashtable.spy
+  targetPoint=(0:F0 1:F0 -f System.Collections.Hashtable.tpx, System.Collections.Hashtable.tpy
+
+CONN 3 (id=KUCCaP4qDDF5WXHxpRks-3)
+  products  -->  products_images
+  endArrow(at target)=ERzeroToMany | startArrow(at source)=
+  sourcePoint=(0:F0 1:F0 -f System.Collections.Hashtable.spx, System.Collections.Hashtable.spy
+  targetPoint=(0:F0 1:F0 -f System.Collections.Hashtable.tpx, System.Collections.Hashtable.tpy
+
+CONN 4 (id=KUCCaP4qDDF5WXHxpRks-5)
+  RESOLVED_BY_ID(Qmj9I9p5MebHnG0-Ovei-28)  -->  product_collections
+  endArrow(at target)=ERzeroToMany | startArrow(at source)=
+  source cell id=Qmj9I9p5MebHnG0-Ovei-28
+  targetPoint=(0:F0 1:F0 -f System.Collections.Hashtable.tpx, System.Collections.Hashtable.tpy
+
+CONN 5 (id=KUCCaP4qDDF5WXHxpRks-6)
+  product_collections  -->  collections
+  endArrow(at target)=ERzeroToMany | startArrow(at source)=
+  sourcePoint=(0:F0 1:F0 -f System.Collections.Hashtable.spx, System.Collections.Hashtable.spy
+  targetPoint=(0:F0 1:F0 -f System.Collections.Hashtable.tpx, System.Collections.Hashtable.tpy
+
+CONN 6 (id=KUCCaP4qDDF5WXHxpRks-7)
+  customers  -->  customers_addresses
+  endArrow(at target)=ERzeroToMany | startArrow(at source)=
+  sourcePoint=(0:F0 1:F0 -f System.Collections.Hashtable.spx, System.Collections.Hashtable.spy
+  targetPoint=(0:F0 1:F0 -f System.Collections.Hashtable.tpx, System.Collections.Hashtable.tpy
+
+CONN 7 (id=KUCCaP4qDDF5WXHxpRks-8)
+  customers  -->  orders
+  endArrow(at target)=ERzeroToMany | startArrow(at source)=
+  sourcePoint=(0:F0 1:F0 -f System.Collections.Hashtable.spx, System.Collections.Hashtable.spy
+  targetPoint=(0:F0 1:F0 -f System.Collections.Hashtable.tpx, System.Collections.Hashtable.tpy
+
+CONN 8 (id=KUCCaP4qDDF5WXHxpRks-9)
+  customers_addresses  -->  RESOLVED_BY_ID(Qmj9I9p5MebHnG0-Ovei-261)
+  endArrow(at target)=ERzeroToMany | startArrow(at source)=
+  sourcePoint=(0:F0 1:F0 -f System.Collections.Hashtable.spx, System.Collections.Hashtable.spy
+  target cell id=Qmj9I9p5MebHnG0-Ovei-261
+
+CONN 9 (id=KUCCaP4qDDF5WXHxpRks-10)
+  RESOLVED_BY_ID(Qmj9I9p5MebHnG0-Ovei-255)  -->  order_items
+  endArrow(at target)=ERzeroToMany | startArrow(at source)=
+  source cell id=Qmj9I9p5MebHnG0-Ovei-255
+  targetPoint=(0:F0 1:F0 -f System.Collections.Hashtable.tpx, System.Collections.Hashtable.tpy
+
+CONN 10 (id=KUCCaP4qDDF5WXHxpRks-11)
+  products  -->  RESOLVED_BY_ID(Qmj9I9p5MebHnG0-Ovei-292)
+  endArrow(at target)=ERzeroToMany | startArrow(at source)=
+  sourcePoint=(0:F0 1:F0 -f System.Collections.Hashtable.spx, System.Collections.Hashtable.spy
+  target cell id=Qmj9I9p5MebHnG0-Ovei-292
+
+CONN 11 (id=KUCCaP4qDDF5WXHxpRks-12)
+  orders  -->  payments
+  endArrow(at target)=ERzeroToMany | startArrow(at source)=
+  sourcePoint=(0:F0 1:F0 -f System.Collections.Hashtable.spx, System.Collections.Hashtable.spy
+  targetPoint=(0:F0 1:F0 -f System.Collections.Hashtable.tpx, System.Collections.Hashtable.tpy
+
+CONN 12 (id=KUCCaP4qDDF5WXHxpRks-19)
+  inventory  -->  RESOLVED_BY_ID(Qmj9I9p5MebHnG0-Ovei-196)
+  endArrow(at target)=ERmandOne | startArrow(at source)=ERmandOne
+  sourcePoint=(0:F0 1:F0 -f System.Collections.Hashtable.spx, System.Collections.Hashtable.spy
+  target cell id=Qmj9I9p5MebHnG0-Ovei-196
+
+CONN 13 (id=KUCCaP4qDDF5WXHxpRks-20)
+  RESOLVED_BY_ID(Qmj9I9p5MebHnG0-Ovei-196)  -->  stock_movements
+  endArrow(at target)=ERoneToMany | startArrow(at source)=ERmandOne
+  source cell id=Qmj9I9p5MebHnG0-Ovei-196
+  targetPoint=(0:F0 1:F0 -f System.Collections.Hashtable.tpx, System.Collections.Hashtable.tpy
+
+CONN 14 (id=KUCCaP4qDDF5WXHxpRks-23)
+  product_variants  -->  stock_reservations
+  endArrow(at target)=ERzeroToMany | startArrow(at source)=
+  sourcePoint=(0:F0 1:F0 -f System.Collections.Hashtable.spx, System.Collections.Hashtable.spy
+  targetPoint=(0:F0 1:F0 -f System.Collections.Hashtable.tpx, System.Collections.Hashtable.tpy
+
+CONN 15 (id=KUCCaP4qDDF5WXHxpRks-24)
+  orders  -->  RESOLVED_BY_ID(Qmj9I9p5MebHnG0-Ovei-389)
+  endArrow(at target)=ERzeroToMany | startArrow(at source)=
+  sourcePoint=(0:F0 1:F0 -f System.Collections.Hashtable.spx, System.Collections.Hashtable.spy
+  target cell id=Qmj9I9p5MebHnG0-Ovei-389
+
+CONN 16 (id=KUCCaP4qDDF5WXHxpRks-25)
+  RESOLVED_BY_ID(Qmj9I9p5MebHnG0-Ovei-479)  -->  RESOLVED_BY_ID(Qmj9I9p5MebHnG0-Ovei-451)
+  endArrow(at target)=ERzeroToMany | startArrow(at source)=
+  source cell id=Qmj9I9p5MebHnG0-Ovei-479
+  target cell id=Qmj9I9p5MebHnG0-Ovei-451
+
+CONN 17 (id=KUCCaP4qDDF5WXHxpRks-26)
+  customers  -->  RESOLVED_BY_ID(Qmj9I9p5MebHnG0-Ovei-420)
+  endArrow(at target)=ERzeroToMany | startArrow(at source)=
+  sourcePoint=(0:F0 1:F0 -f System.Collections.Hashtable.spx, System.Collections.Hashtable.spy
+  target cell id=Qmj9I9p5MebHnG0-Ovei-420
+
+CONN 18 (id=KUCCaP4qDDF5WXHxpRks-27)
+  products  -->  RESOLVED_BY_ID(Qmj9I9p5MebHnG0-Ovei-423)
+  endArrow(at target)=ERzeroToMany | startArrow(at source)=
+  sourcePoint=(0:F0 1:F0 -f System.Collections.Hashtable.spx, System.Collections.Hashtable.spy
+  target cell id=Qmj9I9p5MebHnG0-Ovei-423
+
+CONN 19 (id=KUCCaP4qDDF5WXHxpRks-28)
+  RESOLVED_BY_ID(Qmj9I9p5MebHnG0-Ovei-448)  -->  RESOLVED_BY_ID(Qmj9I9p5MebHnG0-Ovei-367)
+  endArrow(at target)=ERzeroToMany | startArrow(at source)=
+  source cell id=Qmj9I9p5MebHnG0-Ovei-448
+  target cell id=Qmj9I9p5MebHnG0-Ovei-367

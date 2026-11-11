@@ -1,0 +1,18 @@
+=== TABLES WITH GEOMETRY ===
+categories  x=-810 y=40 w=180 h=150  right=-630 bottom=190
+collections  x=-1260 y=-350 w=180 h=150  right=-1080 bottom=-200
+products  x=-530 y=-100 w=180 h=280  right=-350 bottom=180
+product_collections  x=-930 y=-190 w=190 h=120  right=-740 bottom=-70
+customers  x=-1240 y=410 w=180 h=280  right=-1060 bottom=690
+products_images  x=-220 y=-490 w=180 h=250  right=-40 bottom=-240
+product_variants  x=-250 y=-230 w=180 h=280  right=-70 bottom=50
+customers_addresses  x=-960 y=290 w=180 h=340  right=-780 bottom=630
+orders  x=-1600 y=200 w=210 h=340  right=-1390 bottom=540
+order_items  x=-1950 y=310 w=180 h=220  right=-1770 bottom=530
+inventory  x=-570 y=-420 w=180 h=190  right=-390 bottom=-230
+payments  x=-1660 y=640 w=180 h=310  right=-1480 bottom=950
+stock_movements  x=-260 y=-790 w=270 h=280  right=10 bottom=-510
+stock_reservations  x=30 y=-390 w=210 h=280  right=240 bottom=-110
+product_reviews  x=-520 y=470 w=210 h=250  right=-310 bottom=720
+staff  x=-490 y=-1130 w=210 h=310  right=-280 bottom=-820
+user_roles  x=-930 y=-1100 w=180 h=150  right=-750 bottom=-950

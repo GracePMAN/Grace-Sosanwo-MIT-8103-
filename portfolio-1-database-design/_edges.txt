@@ -1,0 +1,59 @@
+=== CELLS WITH endArrow ===
+CONN 1: id=KUCCaP4qDDF5WXHxpRks-1
+  edge=[] source=[] target=[]
+  endArrow=ERzeroToMany startArrow= value=[]
+CONN 2: id=KUCCaP4qDDF5WXHxpRks-2
+  edge=[] source=[] target=[]
+  endArrow=ERzeroToMany startArrow= value=[]
+CONN 3: id=KUCCaP4qDDF5WXHxpRks-3
+  edge=[] source=[] target=[]
+  endArrow=ERzeroToMany startArrow= value=[]
+CONN 4: id=KUCCaP4qDDF5WXHxpRks-5
+  edge=[] source=[Qmj9I9p5MebHnG0-Ovei-28] target=[]
+  endArrow=ERzeroToMany startArrow= value=[]
+CONN 5: id=KUCCaP4qDDF5WXHxpRks-6
+  edge=[] source=[] target=[]
+  endArrow=ERzeroToMany startArrow= value=[]
+CONN 6: id=KUCCaP4qDDF5WXHxpRks-7
+  edge=[] source=[] target=[]
+  endArrow=ERzeroToMany startArrow= value=[]
+CONN 7: id=KUCCaP4qDDF5WXHxpRks-8
+  edge=[] source=[] target=[]
+  endArrow=ERzeroToMany startArrow= value=[]
+CONN 8: id=KUCCaP4qDDF5WXHxpRks-9
+  edge=[] source=[] target=[Qmj9I9p5MebHnG0-Ovei-261]
+  endArrow=ERzeroToMany startArrow= value=[]
+CONN 9: id=KUCCaP4qDDF5WXHxpRks-10
+  edge=[] source=[Qmj9I9p5MebHnG0-Ovei-255] target=[]
+  endArrow=ERzeroToMany startArrow= value=[]
+CONN 10: id=KUCCaP4qDDF5WXHxpRks-11
+  edge=[] source=[] target=[Qmj9I9p5MebHnG0-Ovei-292]
+  endArrow=ERzeroToMany startArrow= value=[]
+CONN 11: id=KUCCaP4qDDF5WXHxpRks-12
+  edge=[] source=[] target=[]
+  endArrow=ERzeroToMany startArrow= value=[]
+CONN 12: id=KUCCaP4qDDF5WXHxpRks-19
+  edge=[] source=[] target=[Qmj9I9p5MebHnG0-Ovei-196]
+  endArrow=ERmandOne startArrow=ERmandOne value=[]
+CONN 13: id=KUCCaP4qDDF5WXHxpRks-20
+  edge=[] source=[Qmj9I9p5MebHnG0-Ovei-196] target=[]
+  endArrow=ERoneToMany startArrow=ERmandOne value=[]
+CONN 14: id=KUCCaP4qDDF5WXHxpRks-23
+  edge=[] source=[] target=[]
+  endArrow=ERzeroToMany startArrow= value=[]
+CONN 15: id=KUCCaP4qDDF5WXHxpRks-24
+  edge=[] source=[] target=[Qmj9I9p5MebHnG0-Ovei-389]
+  endArrow=ERzeroToMany startArrow= value=[]
+CONN 16: id=KUCCaP4qDDF5WXHxpRks-25
+  edge=[] source=[Qmj9I9p5MebHnG0-Ovei-479] target=[Qmj9I9p5MebHnG0-Ovei-451]
+  endArrow=ERzeroToMany startArrow= value=[]
+CONN 17: id=KUCCaP4qDDF5WXHxpRks-26
+  edge=[] source=[] target=[Qmj9I9p5MebHnG0-Ovei-420]
+  endArrow=ERzeroToMany startArrow= value=[]
+CONN 18: id=KUCCaP4qDDF5WXHxpRks-27
+  edge=[] source=[] target=[Qmj9I9p5MebHnG0-Ovei-423]
+  endArrow=ERzeroToMany startArrow= value=[]
+CONN 19: id=KUCCaP4qDDF5WXHxpRks-28
+  edge=[] source=[Qmj9I9p5MebHnG0-Ovei-448] target=[Qmj9I9p5MebHnG0-Ovei-367]
+  endArrow=ERzeroToMany startArrow= value=[]
+total connectors with endArrow=19

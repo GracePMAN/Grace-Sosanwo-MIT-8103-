@@ -1,0 +1,160 @@
+=== FILE METADATA ===
+File: portfolio-1-database-design/02-erd/Atidade_Aso_ER_Diagram.drawio
+LastWriteTime: 11/9/2026 11:40:19 PM
+Size: 167007 bytes
+
+=== TABLES (17 total) ===
+
+TABLE: collections  (id=Qmj9I9p5MebHnG0-Ovei-14)
+    [PK] collection_id
+    [—] collection_name
+    [—] created_at
+    [—] description
+
+TABLE: order_items  (id=Qmj9I9p5MebHnG0-Ovei-285)
+    [PK] order_item_id
+    [FK] order_id
+    [—] quantity
+    [—] subtotal
+    [—] variant_id
+    [—] unit_price
+
+TABLE: product_collections  (id=Qmj9I9p5MebHnG0-Ovei-66)
+    [PK,FK] product_id
+    [PK,FK] collection,id
+    [—] created_at
+
+TABLE: user_roles  (id=Qmj9I9p5MebHnG0-Ovei-478)
+    [—] created_at
+    [PK] role_id
+    [—] role_name
+    [—] description
+
+TABLE: products  (id=Qmj9I9p5MebHnG0-Ovei-27)
+    [—] base_price
+    [—] product_status
+    [PK] product_id
+    [—] description
+    [—] product_name
+    [—] updated_at
+    [FK] category_id
+    [—] created_at
+
+TABLE: staff  (id=Qmj9I9p5MebHnG0-Ovei-447)
+    [—] first_name
+    [—] last_name
+    [—] updated_at
+    [FK] role_id
+    [—] phone_number
+    [—] email
+    [—] created_at
+    [PK] staff_id
+    [—] account_status
+
+TABLE: orders  (id=Qmj9I9p5MebHnG0-Ovei-254)
+    [—] sales_channel
+    [—] order_status
+    [—] updated_at
+    [FK] address_id
+    [FK] customer_id
+    [—] total_amount
+    [—] order_reference
+    [—] created_at
+    [PK] order_id
+    [—] &lt;b&gt;FK&lt;/b&gt;
+
+TABLE: product_variants  (id=Qmj9I9p5MebHnG0-Ovei-195)
+    [PK] variant_id
+    [—] created_at
+    [—] size
+    [—] sku
+    [—] colour
+    [—] fit
+    [—] variant_price
+    [FK] product_id
+
+TABLE: products_images  (id=Qmj9I9p5MebHnG0-Ovei-170)
+    [—] created_at
+    [PK] image_id
+    [—] is_primary
+    [—] alt_txt
+    [—] image_url
+    [—] updated_at
+    [FK] product_id
+
+TABLE: inventory  (id=Qmj9I9p5MebHnG0-Ovei-307)
+    [—] reorder_level
+    [—] quantity_on_hand
+    [—] updated_at
+    [FK] variant_id
+    [PK] inventory_id
+
+TABLE: customers_addresses  (id=Qmj9I9p5MebHnG0-Ovei-223)
+    [FK] customer_id
+    [—] is_default
+    [—] address_line
+    [—] recipent_name
+    [—] city
+    [—] country
+    [—] created_at
+    [—] state
+    [PK] address_id
+    [—] phone_number
+
+TABLE: stock_movements  (id=Qmj9I9p5MebHnG0-Ovei-360)
+    [—] created_at
+    [—] quantity
+    [PK] movement_id
+    [—] notes
+    [—] &lt;span style=&quot;font-weight: 700;&quot;&gt;FK&lt;/span&gt;
+    [—] reference_id
+    [—] movement_type
+    [FK] variant_id
+
+TABLE: customers  (id=Qmj9I9p5MebHnG0-Ovei-148)
+    [—] first_name
+    [PK] customer_id
+    [—] phone_number
+    [—] updated_at
+    [—] created_at
+    [—] email
+    [—] account_status
+    [—] last_name
+
+TABLE: categories  (id=Qmj9I9p5MebHnG0-Ovei-1)
+    [—] description
+    [PK] category_id
+    [—] category_name
+    [—] created_at
+
+TABLE: stock_reservations  (id=Qmj9I9p5MebHnG0-Ovei-385)
+    [FK] order_id
+    [—] updated_at
+    [—] expires_at
+    [—] quantity
+    [—] created_at
+    [FK] variant_id
+    [—] reservation_status
+    [PK] reservation_id
+
+TABLE: payments  (id=Qmj9I9p5MebHnG0-Ovei-329)
+    [—] payment_status
+    [—] amount
+    [—] created_at
+    [PK] payment_id
+    [—] provider_transaction_id
+    [FK] order_id
+    [—] payment_reference
+    [—] payment_method
+    [—] paid_at
+
+TABLE: product_reviews  (id=Qmj9I9p5MebHnG0-Ovei-416)
+    [—] rating
+    [FK] customer_id
+    [PK] review_id
+    [—] created_at
+    [FK] product_id
+    [—] review_comment
+    [—] updated_at
+
+=== EDGES / CONNECTORS (0 total) ===
