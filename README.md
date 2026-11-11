@@ -48,7 +48,6 @@ Deployed the MongoDB database on MongoDB Atlas using AWS infrastructure. Examine
 - `portfolio-5-distributed-cloud/` – Cloud deployment and distributed database documentation.
 - `documentation/` – Final portfolio documentation.
 - `evidence/` – Screenshots and practical implementation evidence.
-- `references/` – Technical references and supporting sources.
 
 ## 4. Technologies and Tools
 

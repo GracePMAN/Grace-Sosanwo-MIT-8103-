@@ -112,22 +112,13 @@ The portfolio covered relational database design, SQL query optimisation, transa
 
 The practical exercises and supporting evidence demonstrate the application of these concepts using PostgreSQL, Supabase, MongoDB Atlas and Node.js.
 
-## 6. References
-
-- PostgreSQL Documentation – https://www.postgresql.org/docs/
-- Supabase Documentation – https://supabase.com/docs
-- MongoDB Documentation – https://www.mongodb.com/docs/
-- MongoDB Atlas Documentation – https://www.mongodb.com/docs/atlas/
-- MongoDB Node.js Driver Documentation – https://www.mongodb.com/docs/drivers/node/current/
-- Node.js Documentation – https://nodejs.org/docs/
-
-## 7. AI Use Declaration
+## 6. AI Use Declaration
 
 ChatGPT was used as an AI support tool for understanding database concepts, planning portfolio activities, receiving technical explanations, troubleshooting guidance and refining documentation.
 
 The generated guidance was reviewed and adapted during the project. Database operations, SQL execution, MongoDB implementation and practical tests were carried out and verified by me. Responsibility for the accuracy and understanding of the submitted work remains with me.
 
-## 8. Repository and Supporting Evidence
+## 7. Repository and Supporting Evidence
 
 **GitHub Repository:** [https://github.com/GracePMAN/Grace-Sosanwo-MIT-8103-]
 
